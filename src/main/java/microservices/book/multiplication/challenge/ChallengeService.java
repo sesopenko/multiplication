@@ -1,5 +1,5 @@
 package microservices.book.multiplication.challenge;
 
 public interface ChallengeService {
-    ChallengeAttempt verifyAttempt(ChallengeAttemptDTO resultAttempt);
+    ChallengeAttempt verifyAttempt(ChallengeAttemptDTO attemptDTO);
 }
